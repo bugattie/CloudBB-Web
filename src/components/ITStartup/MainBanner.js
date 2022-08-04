@@ -34,16 +34,7 @@ const MainBanner = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-5">
                 <div className="hero-content">
-                  <h1>Secure IT Solutions For a More Secure Environment</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida
-                  </p>
-
-                  <Link to="/contact" className="btn btn-primary">
-                    Get Started
-                  </Link>
+                  <h1>Weclome To clould Book Bazar</h1>
                 </div>
               </div>
 

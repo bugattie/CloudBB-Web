@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import * as Icon from "react-feather"
 
-import Logo from "../../assets/images/logo.png"
+import Logo from "../../assets/images/BazarLogo.png"
 import MapImg from "../../assets/images/map.png"
 import Shape1 from "../../assets/images/shape1.png"
 import Shape2 from "../../assets/images/shape2.svg"
@@ -17,14 +17,18 @@ const Footer = () => {
             <div className="single-footer-widget">
               <div className="logo">
                 <Link to="/it-startup">
-                  <img src={Logo} alt="logo" />
+                  <img
+                    style={{ width: "100px", height: "100px" }}
+                    src={Logo}
+                    alt="logo"
+                  />
                 </Link>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi.
+                It is a multivendor application where many owners of book and
+                stationery businesses sell their products, therefore it will
+                also benefit buyers in price because there will be price
+                competition between vendors.
               </p>
             </div>
           </div>
@@ -34,19 +38,19 @@ const Footer = () => {
               <h3>Company</h3>
               <ul className="list">
                 <li>
-                  <Link to="/about-1">About Us</Link>
+                  <Link to="/">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/services-1">Services</Link>
+                  <Link to="/">Services</Link>
                 </li>
                 <li>
-                  <Link to="/features">Features</Link>
+                  <Link to="/">Features</Link>
                 </li>
                 <li>
-                  <Link to="/pricing">Our Pricing</Link>
+                  <Link to="/">Our Pricing</Link>
                 </li>
                 <li>
-                  <Link to="/blog-1">Latest News</Link>
+                  <Link to="/">Latest News</Link>
                 </li>
               </ul>
             </div>
@@ -57,16 +61,16 @@ const Footer = () => {
               <h3>Support</h3>
               <ul className="list">
                 <li>
-                  <Link to="/faq">FAQ's</Link>
+                  <Link to="/">FAQ's</Link>
                 </li>
                 <li>
-                  <Link to="/privacy-policy">Privacy Policy</Link>
+                  <Link to="/">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link to="/term-condition">Terms & Condition</Link>
+                  <Link to="/">Terms & Condition</Link>
                 </li>
                 <li>
-                  <Link to="/team">Team</Link>
+                  <Link to="/">Team</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>
@@ -82,58 +86,16 @@ const Footer = () => {
               <ul className="footer-contact-info">
                 <li>
                   <Icon.MapPin />
-                  27 Division St, New York, <br /> NY 10002, USA
+                  DHA SUFFA UNIVERSITY
                 </li>
                 <li>
                   <Icon.Mail />
-                  Email: <Link to="mailto:spet@gmail.com">spet@gmail.com</Link>
+                  Email:{" "}
+                  <Link to="mailto:spet@gmail.com">bookbazar@gmail.com</Link>
                 </li>
                 <li>
                   <Icon.PhoneCall />
-                  Phone: <Link to="tel:321984754">+ (321) 984 754</Link>
-                </li>
-              </ul>
-
-              <ul className="social-links">
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    className="facebook"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon.Facebook />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/"
-                    className="twitter"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon.Twitter />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    className="instagram"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon.Instagram />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    className="linkedin"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon.Linkedin />
-                  </a>
+                  Phone: <Link to="tel:321984754">+ (021) 984 754</Link>
                 </li>
               </ul>
             </div>

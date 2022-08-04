@@ -22,24 +22,16 @@ const AboutUsContent = () => {
 
           <div className="col-lg-6 col-md-12">
             <div className="ml-about-content">
-              <span className="sub-title">About Us</span>
-              <h2>Engaging New Audiences Through Smart Approach</h2>
+              <h2>About Us</h2>
               <div className="bar"></div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                It is a multivendor application where many owners of book and
+                stationery businesses sell their products, therefore it will
+                also benefit buyers in price because there will be price
+                competition between vendors. Users can order books online from
+                bookstores at competitive prices without having to travel to
+                bazaars, which takes a lot of time and money.
               </p>
-              <p>
-                Nullam quis ante. Etiam sit amet orci eget eros faucibus
-                tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-                sodales sagittis magna. Sed consequat, leo eget bibendum
-                sodales, augue velit cursus nunc.Donec vitae sapien ut libero
-                venenatis faucibus tempus.
-              </p>
-
-              <Link to="/about-1" className="btn btn-secondary">
-                Discover More
-              </Link>
             </div>
           </div>
         </div>
