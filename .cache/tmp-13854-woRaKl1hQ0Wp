@@ -1,0 +1,1 @@
+require("/home/bugattie/Development/spet/node_modules/gatsby/dist/utils/telemetry-server.js").default(42215)
